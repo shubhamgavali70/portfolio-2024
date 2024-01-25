@@ -1,0 +1,50 @@
+.container {
+    min-height: 100vh;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textWrapper {
+    width: 50%;
+}
+
+.text {
+    font-size: 4rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.myName {
+    font-family: sans-serif;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    float: right;
+}
+
+.quote {
+    width: 60%;
+    font-size: 4rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .quote {
+        width: 90%;
+    }
+
+    .quote {
+        font-size: 2rem;
+    }
+
+    .myName {
+        font-size: 1.1rem;
+    }
+}
